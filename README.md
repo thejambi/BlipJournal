@@ -1,0 +1,2 @@
+# BlipJournal
+Blip Journal app
