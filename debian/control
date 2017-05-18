@@ -1,0 +1,15 @@
+Source: BlipJournal
+Section: x11
+Priority: extra
+Maintainer: Zach Burnham <thejambi@gmail.com>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               libgtk-3-dev,
+               valac (>= 0.16)
+Standards-Version: 3.9.3
+
+Package: BlipJournal
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Blip Journal
+ Simple, future-proof, plain-text journal.
