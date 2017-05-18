@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Blip Journal
+GenericName=Future-Proof Journal App
+Comment=Future-proof, plain-text journal app
+Categories=GTK;Accessories;
+Exex=com.github.thejambi.BlipJournal
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=blipJournal
+Keywords=Blip;Journal;Plain;Text;
