@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Zach Burnham <thejambi@gmail.com> -->
+<component type="desktop">
+    <id>com.github.thejambi.BlipJournal.desktop</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Blip Journal</name>
+    <summary>Simple, future-proof plain text journal</summary>
+    <description>
+        <p>Blip Journal is designed so that your entries are in your control and accessible with or without the Blip Journal app. So when Blip Journal is gone, your entries will be safe.</p>
+    </description>
+    <custom>
+        <value key="x-appcenter-color-primary">#603461</value>
+        <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+        <value key="x-appcenter-suggested-price">1</value>
+    </custom>
+</component>
