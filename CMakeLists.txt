@@ -41,3 +41,8 @@ install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.thejambi.BlipJournal.desktop DESTINATION ${DATADIR}/applications/)
 
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.thejambi.BlipJournal.appdata.xml DESTINATION ${DATADIR}/metainfo/)
+
+# Translation files
+set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
+add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
+add_subdirectory (po)
